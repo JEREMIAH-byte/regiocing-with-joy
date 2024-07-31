@@ -190,9 +190,10 @@ form textarea{
 }
 
 .below{
-    font-family: san-serif;
+
     width: 100%;
     align-content: center;
     text-align:center;
+    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/;
 };
 
