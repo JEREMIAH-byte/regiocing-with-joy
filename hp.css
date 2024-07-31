@@ -190,7 +190,7 @@ form textarea{
 }
 
 .below{
-    font-family: "Comic Sans MS",cursive;/* Fallback fonts*/;
+    font-family: san-serif;
     width: 100%;
     align-content: center;
     text-align:center;
