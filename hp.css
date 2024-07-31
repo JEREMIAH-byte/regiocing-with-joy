@@ -1,0 +1,201 @@
+body{
+    background-color: white;
+    align-content: center;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    position: relative;
+}
+
+.birthday{
+    position: relative;
+    top: 50px;
+    cursor: pointer;
+    animation: up 3s linear infinite;
+}
+
+.envelope{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background: #215c89;
+    display: grid;
+    place-items: center;
+}
+
+.envelope::before{
+
+
+    content: " ";
+    position: absolute;
+    width: 212px;
+    height: 212px;
+    background: #FDF3EB;
+    transform: rotate(45deg);
+    top: -105px;
+    left: 44px;
+    border-radius: 30px 0 0 0;
+    
+}
+
+.front{
+    position: absolute;
+    border-right: 180px solid #2172af ;
+    border-top: 95px solid transparent;
+    border-bottom: 100px solid transparent;
+    left: 120px;
+    top: 5px;
+    width: 0;
+    height: 0;
+}
+
+.front::before{
+    position: absolute;
+    content: " ";
+    border-left: 300px solid #318fd6;
+    border-top: 195px solid transparent;
+    left: -120px;
+    top: -95px;
+}
+
+div.card img{
+    position: relative;
+    width: 250px;
+    height: 180px;
+    border-radius: 2px;
+    display: grid;
+    place-items: center;
+    transition: 1s;
+}
+
+
+div.card img::before{
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px; 
+}
+
+.birthday:hover div.card img{
+    transform: translateY(-230px);
+    width: 300px;
+    height: 230px;
+}
+
+@keyframes up{
+    0%, 100%{
+        transform: translateY(0);
+    }
+
+    50%{
+        transform: translateY(-50px);
+    }
+}
+
+.birthday::before{
+    content: " ";
+    position: absolute;
+    width: 330px;
+    height: 25px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, .3);
+    top: 230px;
+    left: -15px;
+    animation: scale 3s linear infinite;
+}
+
+header{
+    align-items:center;
+    padding: 0px 20px;
+    background: lightgrey;
+    box-shadow: 0px 1px 2px rgb(0, 0, 0.06);
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+ header h2{
+    text-align: center;
+}
+h5{
+    text-align: center;
+    text-decoration: solid;
+}
+
+hr{
+    background: rgb(0, 0, 0);
+}
+ #cale{
+    width: 100%;
+    height: 35px;
+    background: black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#open{
+    background: black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+#close{
+    background: black;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: -20px;
+    margin-left: 400px;
+}
+
+p#p6{
+    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
+
+p#p1{
+    margin-bottom: -10px;
+    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
+
+p#p2{
+    margin-bottom:-3px ;
+    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
+
+
+
+p#p3{
+        font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
+    
+p#p5{
+    margin-top: 50px;
+}
+
+p#p4{
+    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
+
+div.checkboxes{
+    justify-content: space-between;
+    
+}
+
+div.below{
+    background-color: rgb(238, 238, 238);
+    width: 100%;
+
+}
+
+form textarea{
+    width: 100%;
+    height: 100px;
+}
+
+.below{
+    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/;
+    width: 100%;
+    align-content: center;
+    text-align:center;
+};
+
