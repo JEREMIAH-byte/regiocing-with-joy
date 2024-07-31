@@ -153,28 +153,25 @@ hr{
     margin-left: 400px;
 }
 
-p#p6{
-    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
+
 
 p#p1{
     margin-bottom: -10px;
-    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
+  
 
 p#p2{
     margin-bottom:-3px ;
-    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
 
 
 
-p#p3{
-        font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
+
+
     
 p#p5{
     margin-top: 50px;
 }
 
-p#p4{
-    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/};
+
 
 div.checkboxes{
     justify-content: space-between;
@@ -193,7 +190,7 @@ form textarea{
 }
 
 .below{
-    font-family: "Monotype Corsiva","Comic Sans MS",cursive;/* Fallback fonts*/;
+    font-family: "Comic Sans MS",cursive;/* Fallback fonts*/;
     width: 100%;
     align-content: center;
     text-align:center;
